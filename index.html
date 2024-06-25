@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="media/logoo.png">
+    <title>Industry Simple Bootstrap Theme</title>
+</head>
+<body>
+
+    <header>
+        <nav id="navbar" class="flex justify-between pl-5 pr-10 py-3 absolute w-full z-50">
+            <span> <img src="media/logo.jpg" height="75px" width="170px" alt=""></span>
+            <ul class="inline-flex gap-5 py-2 text-sm">
+                <li class="p-3 px-6 font-semibold relative group">
+                    <a href="#">Home</a>
+                </li>
+                <li class="p-3 px-6 font-semibold cursor-pointer relative group">
+                    <a href="#">Live Demo  <i class="fa-solid fa-caret-down"></i></a>
+                    <nav class="absolute left-0 mt-2 w-44 bg-zinc-800 shadow-lg opacity-0 group-hover:opacity-100">
+                        <ul class="py-1">
+                            <li><a href="#" class="block px-4 py-2 text-sm text-gray-200">Industry Demo</a></li>
+                            <li><a href="#" class="block px-4 py-2 text-sm text-gray-200">Transparent Demo</a></li>
+                        </ul>
+                    </nav>
+                </li>
+                <li class="p-3 px-6 font-semibold cursor-pointer relative group">
+                    <a href="#">Live Demo Blocks  <i class="fa-solid fa-caret-down"></i></a>
+                    <nav class="absolute left-0 mt-2 w-44 bg-zinc-800  shadow-lg opacity-0 group-hover:opacity-100">
+                        <ul class="py-1">
+                            <li><a href="#" class="block px-4 py-2 text-sm text-gray-200">Headers / Features</a></li>
+                            <li><a href="#" class="block px-4 py-2 text-sm text-gray-200">Content / Video</a></li>
+                            <li><a href="#" class="block px-4 py-2 text-sm text-gray-200">Team / Form</a></li>
+                            <li><a href="#" class="block px-4 py-2 text-sm text-gray-200">Footers / Social</a></li>
+                        </ul>
+                    </nav>
+                </li>
+                <li class="px-8 py-3 text-white text-center transition ease-in-out 2s bg-zinc-800 hover:bg-zinc-700"><a href="#">BUY NOW</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <script>
+        window.addEventListener("scroll", function() {
+    var navbar = document.getElementById("navbar");
+    if (window.scrollY > 80) {
+        navbar.classList.add("fixed", "bg-white");
+        navbar.classList.remove("absolute");
+    } else {
+        navbar.classList.remove("fixed", "bg-white");
+        navbar.classList.add("absolute");
+    }
+});
+    </script>
+    
+  
+    <div class="parent flex" >
+
+        <div class="child bg-white h-[42rem] w-[27.5rem]">
+            <img src="media/img1.jpg" class="absolute top-36 left-4" height="350px" width="600px" alt="">
+        </div>
+
+        <div class="child bg-[#ffdf00] h-[42rem] w-[51.5rem]">
+            <div class="heading w-[31rem] relative top-52 left-60">
+                <p class="text-[1.3rem]">Simple Bootstrap Theme </p>
+                <h1 class="text-[4.7rem] font-semibold text-zinc-800 mt-2">Industry</h1>
+                <p class="text-[1.3rem] mt-24">The factory is a very important part of any industry, it's system must be well thought. We pay a lot of attention to the factory process.</p>
+            </div>
+            <p class="rotate-90 absolute top-[29.5rem] left-[70rem] text-sm"><strong>INDUSTRIES </strong>/ SUPPLY</p>
+        </div>
+    </div>
+    <div class="container h-[27rem] w-full flex ps-16">
+         <div class="child w-1/2 h-full">
+            <p class="mt-20 text-sm"><strong>Economics</strong> / Industry</p>
+            <h1 class="text-5xl font-semibold mt-3" >Industry Efficiency</h1>
+            <p class="w-[32rem] text-[1.1rem] pt-10">Market stands for about one-third of worldwide last power intake as well as will certainly be a key component of whether exhaust reductions targets both in Europe and worldwide can be attained. Improving energy effectiveness provides the methods for European industry to not only reduce power usage and exhausts but also enhance efficiency, competition and also a success.</p>
+         </div>
+        <div class="parent child w-1/2 h-full tracking-tight overflow-hidden relative">
+
+         <div class="bg-zinc-800  absolute right-0 top-0 w-[53%] h-full transition-all duration-300 ease-in-out transform origin-right hover:w-full ">
+
+            <img src="media/img2.jpg" class="h-full w-full opacity-0 hover:opacity-100 transition-opacity delay-300  duration-300  " alt="">
+   
+           
+
+            <p class=" text-white text-sm absolute top-[47.4rem] left-[62rem] ">Factory</p>
+
+           <p class="w-[14.4rem] text-[1.3rem]  text-white   absolute top-[50rem] left-[62rem] z-50	">Factory is a very important part of any industry,it's system must be well thought. We pay a lot of attention on factory proccess. </p>
+
+
+         </div>
+        </div>
+    </div>
+    <div class="container h-[26rem] w-full flex ">
+        <!-- transition ease-in-out duration-300 -->
+        <div class="child h-full w-1/4 bg-neutral-300 overflow-hidden">
+
+            <img src="media/ppl1.jpg" alt="" class="opacity-0 hover:opacity-100 transition-opacity duration-300 ">
+
+            <p class="text-sm ms-16 mt-20 absolute top-[69.2rem]">Team</p>
+            <p class="text-xl ms-16 mt-6 w-[12rem] absolute top-[75rem]">Only qualified professionals work in our team</p>
+        </div>
+        <div class="child h-full w-2/4 bg-zinc-800 overflow-hidden">
+            <img src="media/img2.jpg" class="h-full w-full opacity-0 hover:opacity-100 transition-opacity duration-300" alt="">
+            <p class="text-sm ms-16 mt-20 text-white absolute left-[38rem] top-[69.2rem] ">Factory</p>
+            <p class="text-xl ms-16 mt-8 w-[14rem] text-white absolute top-[75rem] left-[38rem]">is a very important part of any industry,it's system must be well thought </p>
+        </div>
+        <div class="child h-full w-1/4 bg-yellow-400 overflow-hidden">
+
+            <img src="media/ppl2.jpg" alt="" class="opacity-0 hover:opacity-100 transition-opacity duration-300 ">
+
+            <p  class="text-sm ms-16 mt-20 absolute top-[69.2rem]">Production</p>
+            <p class="text-xl ms-16 mt-6 w-[12.5rem] absolute top-[75rem]">We care so much of the production process, paying attention to each detail</p>
+        </div>
+     </div>
+     <div class="container h-[26rem] w-full flex ">
+        <div class="child h-full w-1/2 bg-yellow-400 overflow-hidden">
+            <img src="media/img2.jpg" class="h-full w-full opacity-0 hover:opacity-100 transition-opacity duration-300" alt="">
+            <p class=" text-sm absolute top-[99rem] left-[22rem] text-slate-600	
+            ">Supply</p>
+            <p class="w-[14.4rem] text-[1.3rem]   absolute top-[101rem] left-[22rem]">Suppliers are very trustworthy people. Our company works with them for several years and they wouldn't stand anyone up.</p>
+        </div>
+        <div class="child h-full w-1/2 bg-zinc-800 text-white">
+            <h1 class="text-[2.5rem] font-semibold pt-16 ps-16">Professional Experience</h1>
+            <p class="text-gray-300	w-[22rem] text-[1.1rem] pt-8 ms-52 ">Our company works with this industry for 20 years. We have enough of the experience to cope with any issue, which might occur in the process.
+            </p>
+        </div>
+     </div>
+
+     <div class="container2 h-[110vh]	w-full flex">
+        <div class="child h-full w-1/2">
+            <p class="text-sm absolute mt-56 rotate-90"><strong>INDUSTRIES</strong> / ECONOMICS
+            </p>
+            <h1 class="font-semibold w-2/3 text-[4.5rem] absolute ps-40 pt-28">Transform Your Production</h1>
+            <p class="w-[33rem] mt-80 pt-7 ms-40 text-[1.1rem] ">In order to allow the change to service economic climate, one needs to reap the benefits brand-new technology such as IoT and also information science offers. The new modern technology has currently matured to such a level that it is readily available at an affordable expense making IoT as well as information science two crucial columns to sustain the change to a solution economic situation.</p>
+        </div>
+        <div class="child h-full w-1/2">
+            <p class="w-[33rem] mt-80 pt-7 ms-24 text-[1.1rem] ">The third challenge is to take into consideration the business version and the means customers are empowered as well as augmented by supplying data to people in different levels of an organization. Offering information in an easy to use manner will inevitably raise both understandings sharing as well as customer performance assisting companies to function a lot more effective.</p>
+        </div>
+     </div>
+
+    <div class="container h-[130vh] w-full bg-zinc-800 text-white flex px-20 gap-9">
+
+        <div class="child w-1/3 h-[70vh] pt-24">
+            <h1 class="text-4xl font-semibold ">Manufacturing</h1>
+            <p class="pt-7 text-[1.2rem] text-gray-300">Production sector describes those markets which associate with the manufacturing and handling of things and also enjoy either development of brand-new assets or in value enhancement. The manufacturing market makes up a significant share.</p>
+        </div>
+
+        <div class="child w-1/3 h-[110vh] mt-16 bg-neutral-700 overflow-hidden
+        ">
+
+            <img src="media/img1.jpg" class="transition ease-in-out  transform hover:scale-125 duration-[5000ms] " alt="">
+
+            <h1 class="text-xl font-semibold ps-16 pt-16">Industries</h1>
+            <p class="mt-16  mt-3 w-[16.5rem] text-gray-300 ps-16">The market is the production of products or associated solutions within an economic situation. The major source of income of a group or company is the indication of its appropriate industry. </p>
+            <div class="yellow h-[4rem] w-[4rem] bg-yellow-400 ms-[17.4rem] mt-[3.4rem] text-black text-[1.5rem] text-center hover:cursor-pointer">
+                <div class="transition ease-in-out  hover:translate-x-1 duration-300ms">
+               <i class="fa-solid fa-arrow-right-long mt-5"></i>
+            </div>
+            </div>
+        </div>
+
+        <div class="child w-1/3 h-[100vh] mt-16 bg-neutral-700 overflow-hidden">
+            <img src="media/img3.jpg"  class="transition ease-in-out  transform hover:scale-125 duration-[5000ms] " alt="">
+            <h1 class="text-xl font-semibold ps-16 pt-16">Team</h1>
+            <p class="mt-16  mt-3 w-[17.5rem] text-gray-300 ps-16">Only true professionals work in our team. If you want you can always find the necessary certificates and positif feedbacks of our previous clients on our site.</p>
+
+
+            <div class="yellow h-[4rem] w-[4rem] bg-yellow-400 ms-[17.4rem] mt-[1.9rem] text-black text-[1.5rem] text-center hover:cursor-pointer">
+
+                <div class="transition ease-in-out  hover:translate-x-1 duration-300 	">
+
+                    <i class="fa-solid fa-arrow-right-long  mt-5 "></i>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+     <div class="container h-[90vh] w-full flex">
+
+        <div class="child h-full w-1/2">
+            <p class="ms-24 mt-28"><strong>Industries</strong> / Team</p>
+            <p class="ms-24 text-5xl font-semibold mt-6">Join Our Team</p>
+            <p class="ms-24 mt-7 text-lg w-[29.4rem]">We are always happy to see new people in our enterprise. If you have the necessary experience and education we would be happy to see you on our team.</p>
+            <p class="ms-24 text-lg mt-5 w-[29.4rem]">We would offer you a social package, good salary and the nice condition of work. Every half a year we provide our workers with advanced training. </p>
+        </div>
+
+        <div class="child h-full w-1/2 overflow-hidden">
+            <img src="media/img4c.jpg" height="900px" width="910px" alt="" class="transition ease-in-out  transform hover:scale-125 duration-[5000ms] ">
+
+            <div class="yellow h-[20.1rem] w-[5rem] absolute top-[221rem] bg-[#ffdf00] hover:bg-yellow-300 cursor-pointer ">
+                <p class="rotate-90 mt-16 text-[0.91rem] font-normal">READ MORE</p>
+                <i class="fa-solid fa-arrow-right-long mt-36 ms-7 text-2xl transition ease-in-out  hover:translate-x-1 duration-300 "></i>
+            </div>
+        </div>
+
+     </div>
+
+
+     <div class="container h-[145vh] w-full">
+        <div class="child h-1/2 w-full text-center pt-20">
+            <h1 class="text-[2.7rem] font-semibold ">Industry In Action</h1>
+            <img src="media/ss.png" height="850px" width="850px" alt="" class="ms-56 mt-10">
+            <div class="yellow bg-[#ffdf00] h-[6rem] w-[6rem] absolute top-[269.7rem] left-[37.5rem] transition ease-in-out transform hover:scale-110	 duration-500 	">
+                <i class="fa-solid fa-play text-4xl pt-7 hover:cursor-pointer"></i>
+            </div>
+        </div>
+        <div class="child h-1/2 w-full bg-[#ffdf00]"></div>
+     </div>
+
+
+    <div class="container h-[152vh] w-full flex  pe-5 bg-zinc-800">
+        <div class="kid h-full w-1/2 ps-24 pe-28">
+            <h1 class="text-[2.6rem] font-semibold text-white mt-12">Connect with us</h1>
+            <p class="text-sm text-gray-300 mt-8">Please contact us any time you have any issue or question. We would be happy to help you.</p>
+
+              <form action="" class="w-full">
+
+                <div class="border-b mt-10 py-4">
+                <input type="text" class="bg-transparent w-full text-white focus:outline-none" placeholder="First Name">
+                </div>
+                <div class="border-b mt-3 py-4">
+                <input type="text" class="bg-transparent w-full text-white focus:outline-none" placeholder="Last Name">
+                </div>
+                <div class="border-b mt-3 py-4">
+                <input type="text" class="bg-transparent w-full text-white focus:outline-none" placeholder="Company">
+                </div>
+                <div class="border-b mt-3 py-4">
+                <input type="text" class="bg-transparent w-full text-white focus:outline-none" placeholder="Email">
+                </div>
+                <div class="border-b mt-3 py-4">
+                <input type="text" class="bg-transparent w-full text-white focus:outline-none" placeholder="Phone">
+                </div>
+                <div class="border-b mt-3 py-4">
+                <textarea name="" id=""  class="bg-transparent w-full text-white focus:outline-none" cols="10" rows="6" placeholder="Message"></textarea>
+                </div>
+                
+                <button type="submit" class="h-[4rem] mt-10 w-full bg-[#ffdf00] flex justify-around	pt-[1rem] hover:bg-yellow-300">
+                    <span class="text-xl">SUBMIT</span> 
+                    <i class="fa-solid fa-arrow-right-long  text-2xl transition ease-in-out  hover:translate-x-2 duration-300"></i>
+                </button>
+
+              </form>
+
+        </div>
+        <div class="kid h-full w-1/2 overflow-hidden">
+            <img src="media/img1a.jpg" class="h-full w-full" alt="">
+        </div>
+    </div>
+
+     <!-- <div class="container h-[40vh] w-full">
+           
+    </div> 
+
+
+    <div class="container h-[30vh] w-full bg-zinc-100"></div> -->
+
+
+</body>
+</html>
